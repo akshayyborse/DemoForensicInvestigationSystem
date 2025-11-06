@@ -3,21 +3,6 @@
 A demonstration web-based platform built to simulate **digital forensic investigation workflows** — from evidence collection to case reporting.  
 This system provides a structured environment for managing forensic data, ensuring **integrity, traceability, and transparency** throughout the investigation lifecycle.
 
----
-
-## 📑 Table of Contents
-- [Overview](#overview)
-- [Features](#features)
-- [System Architecture](#system-architecture)
-- [Technology Stack](#technology-stack)
-- [Installation](#installation)
-- [Usage Guide](#usage-guide)
-- [Project Structure](#project-structure)
-- [Future Enhancements](#future-enhancements)
-- [Contributing](#contributing)
-
-
----
 
 ## 🧩 Overview
 
@@ -30,49 +15,6 @@ It demonstrates essential functionalities of a professional forensic case manage
 - Case tracking and reporting  
 
 This project can serve as a **foundation for academic or research-based forensic management systems**.
-
----
-
-## ⚙️ Features
-
-- **Case Management** – Create, update, and close forensic cases  
-- **Evidence Logging** – Add, categorize, and assign evidence to specific cases  
-- **Chain of Custody Tracking** – Record every transfer of evidence ownership  
-- **Role-Based Access** – Admin and Investigator dashboards  
-- **Search & Filter** – Quickly locate case details or specific evidence  
-- **Report Generation** – Export summaries or full case reports (PDF/JSON)  
-- **Modern UI** – Responsive and accessible interface  
-
----
-
-## 🧱 System Architecture
-
-Frontend (React / Vite / Tailwind)
-|
-| REST API Requests
-|
-Backend (Node.js / Express)
-|
-| Database Queries
-|
-Database (MongoDB or SQL)
-
-
-
-The modular architecture allows flexibility in backend and database integration.  
-Frontend communicates with backend services through a secure API layer.
-
----
-
-## 💻 Technology Stack
-
-| Component     | Technology Used              |
-|----------------|-----------------------------|
-| Frontend       | TypeScript, Vite, Tailwind CSS |
-| Backend        | Node.js, Express (or similar) |
-| Database       | MongoDB / PostgreSQL (configurable) |
-| Styling        | Tailwind CSS, DaisyUI         |
-| Tools          | npm, Git, VS Code             |
 
 ---
 
@@ -112,23 +54,6 @@ Track Chain of Custody – Record each movement or update to the evidence.
 
 Generate Report – Download case summaries or export data for review.
 
-📂 Project Structure
-DemoForensicInvestigationSystem/
-│
-├── src/
-│   ├── api/              # Backend API logic
-│   ├── components/       # Frontend UI components
-│   ├── pages/            # Main UI pages (Dashboard, Cases, Evidence)
-│   ├── assets/           # Images and static files
-│   ├── models/           # Database schemas or data models
-│   └── utils/            # Helper functions
-│
-├── public/               # Static assets
-├── package.json
-├── tailwind.config.js
-├── tsconfig.json
-├── vite.config.ts
-└── README.md
 
 🚀 Future Enhancements
 
