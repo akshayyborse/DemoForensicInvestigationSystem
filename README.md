@@ -15,8 +15,7 @@ This system provides a structured environment for managing forensic data, ensuri
 - [Project Structure](#project-structure)
 - [Future Enhancements](#future-enhancements)
 - [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+
 
 ---
 
