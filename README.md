@@ -104,11 +104,6 @@ Then visit:
 
 🧭 Usage Guide
 
-Login using admin credentials (demo):
-
-Username: admin@example.com
-Password: password123
-
 
 Create a New Case – Provide case title, description, and lead investigator.
 
